@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Note: PASS scan bits=1024 chains=3
+Time: 6906 ns  Iteration: 0  Process: /tb_scan_register_bank/line__17  File: D:/mips32-lbist-power-optimization/repo/tb/tb_scan_register_bank.vhd
+$stop called at time : 6906 ns : File "D:/mips32-lbist-power-optimization/repo/tb/tb_scan_register_bank.vhd" Line 46

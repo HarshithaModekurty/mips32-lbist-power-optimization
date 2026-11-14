@@ -1,0 +1,7 @@
+Part: xc7z020clg400-1
+Clock period ns: 20.0
+Mode: out_of_context
+Simulations: core, 1024-bit/4-chain, 1024-bit/3-chain
+Implementation: synthesis, optimization, placement, routing
+Power: vectorless estimate; not measured LBIST power
+No board pin constraints, external I/O timing constraints, or bitstream.

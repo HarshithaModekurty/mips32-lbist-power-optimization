@@ -1,3 +1,9 @@
 build/
 __pycache__/
 *.cf
+.Xil/
+*.jou
+*.log
+*.backup.jou
+*.backup.log
+clockInfo.txt

@@ -16,6 +16,9 @@ It is not a complete MIPS32 ISA implementation. No external core is vendored.
   results, limitations, and next-member tasks.
 - `docs/MEMBER1_HANDOFF.docx`: portable Word version of the handoff.
 - `docs/validation.txt`: recorded simulator results.
+- [Vivado results and plots](docs/VIVADO_RESULTS.md): XSim, routed utilization,
+  internal timing, assumptions, and PNG/PDF figures.
+- `tools/run_vivado.tcl`: reproducible out-of-context Vivado validation flow.
 
 Run from the repository root with GHDL and Python 3 installed:
 
@@ -30,3 +33,7 @@ Default configuration: four balanced chains of 256 bits each. The controller,
 LFSR, toggle-rate modifier, MISR, and fault injector are integration work for
 Members 2 and 3. Structural cycle counts here are not measured power savings or
 fault-coverage results.
+
+Vivado 2023.2 also passed the core and two scan simulations and completed routing
+on an assumed XC7Z020 at 50 MHz: 2,430 LUTs, 1,024 flip-flops, +7.291 ns internal
+setup slack. See the linked results for external timing and OOC limitations.

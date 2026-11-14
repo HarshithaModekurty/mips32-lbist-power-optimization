@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Note: PASS core instruction execution, scan load/capture/unload, isolation
+Time: 5536 ns  Iteration: 0  Process: /tb_mips32_core/line__19  File: D:/mips32-lbist-power-optimization/repo/tb/tb_mips32_core.vhd
+$stop called at time : 5536 ns : File "D:/mips32-lbist-power-optimization/repo/tb/tb_mips32_core.vhd" Line 105

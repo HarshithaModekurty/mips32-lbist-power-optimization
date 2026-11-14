@@ -134,8 +134,11 @@ Balancing minimizes maximum chain length; excluding r0 avoids 32 unneeded scan
 flops. Parallelism trades shorter test time for more generator/MISR connectivity
 and potentially greater simultaneous switching. Four chains are a starting
 configuration, not a measured optimum. No claim is made that parallelism alone
-reduces power. Physical routing, area, timing, power, coverage and toggle targets
-remain unmeasured. Run post-synthesis activity/power analysis and fault simulation
+reduces power. A subsequent Vivado run implemented the four-chain core on an
+assumed XC7Z020 at 50 MHz: 2,430 LUTs, 1,024 flip-flops and +7.291 ns internal
+setup slack. See docs/VIVADO_RESULTS.md for archived reports, plots, and limits.
+Measured power, coverage and toggle targets remain pending.
+Run activity-based power analysis and fault simulation
 with the full Members 2/3 system before making those claims.
 
 ## Validation and reproduction
@@ -163,6 +166,11 @@ edge and checks reset/shift/capture priority. These are directed RTL simulations
 not exhaustive ISA equivalence, timing closure, or fault-coverage evidence.
 
 ## Continuation checklist
+
+Report figures are available as PNG and PDF under docs/figures/: balanced scan
+lengths, latency versus connectivity, and actual Vivado routed utilization.
+Regenerate them with tools/plot_results.py (requires matplotlib); their sources
+and interpretation are documented in docs/VIVADO_RESULTS.md.
 
 - Confirm subset suitability and the absence of delay slots with the team; expand ISA if needed.
 - Integrate Members 2/3 blocks with the protocol and deterministic primary inputs above.
