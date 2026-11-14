@@ -1,0 +1,8 @@
+chains,min_length,max_length,imbalance,shift_clocks,shift_plus_capture_clocks,valid_output_bits,masked_output_slots,scan_data_ports,ideal_shift_speedup
+1,1024,1024,0,1024,1025,1024,0,2,1.0
+2,512,512,0,512,513,1024,0,4,2.0
+3,341,342,1,342,343,1024,2,6,2.994152
+4,256,256,0,256,257,1024,0,8,4.0
+8,128,128,0,128,129,1024,0,16,8.0
+16,64,64,0,64,65,1024,0,32,16.0
+32,32,32,0,32,33,1024,0,64,32.0

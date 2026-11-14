@@ -1,0 +1,22 @@
+../../src/ieee2008/numeric_std-body.vhdl:1945:7:@0ms:(assertion warning): NUMERIC_STD."/=": metavalue detected, returning TRUE
+D:\mips32-lbist-power-optimization\repo\tb\tb_mips32_core.vhd:104:5:@5536ns:(report note): PASS core instruction execution, scan load/capture/unload, isolation
+simulation stopped @5536ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@20546ns:(report note): PASS scan bits=1024 chains=1
+simulation stopped @20546ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@10306ns:(report note): PASS scan bits=1024 chains=2
+simulation stopped @10306ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@6906ns:(report note): PASS scan bits=1024 chains=3
+simulation stopped @6906ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@5186ns:(report note): PASS scan bits=1024 chains=4
+simulation stopped @5186ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@2626ns:(report note): PASS scan bits=1024 chains=8
+simulation stopped @2626ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@1346ns:(report note): PASS scan bits=1024 chains=16
+simulation stopped @1346ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@706ns:(report note): PASS scan bits=1024 chains=32
+simulation stopped @706ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@186ns:(report note): PASS scan bits=17 chains=3
+simulation stopped @186ns
+D:\mips32-lbist-power-optimization\repo\tb\tb_scan_register_bank.vhd:45:5:@86ns:(report note): PASS scan bits=1 chains=1
+simulation stopped @86ns
+PASS GHDL synthesis elaboration (default four-chain core)
