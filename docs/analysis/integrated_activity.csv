@@ -1,0 +1,8 @@
+mode,nominal_percent,measured_percent,transitions,lane_shift_opportunities,patterns
+10%,10,4,182,4096,4
+20%,20,9,405,4096,4
+30%,30,14,610,4096,4
+40%,40,19,811,4096,4
+50%,50,24,995,4096,4
+60%,60,29,1206,4096,4
+Bypass,100,50,2057,4096,4
