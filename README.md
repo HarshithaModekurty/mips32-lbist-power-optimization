@@ -1,5 +1,11 @@
 # MIPS32 scan-based LBIST: Member 1
 
+The final combined IEEE-style submission is in [docs/report](docs/report/README.md),
+including the [compiled report](docs/report/DFT_PROJECT_REPORT.pdf), final LaTeX
+sources, updated figures, MIPS core waveform, and the complete code appendix.
+This is the current submission version; member handoffs below are retained as
+development documentation.
+
 VHDL-2008 implementation of the Member 1 responsibilities in the supplied
 VL405 assignment and team allocation: MIPS32 circuit under test, scan chains,
 balanced partitioning, and scan-length analysis.

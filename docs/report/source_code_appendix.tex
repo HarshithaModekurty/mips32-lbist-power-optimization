@@ -1,0 +1,90 @@
+% Include after your existing appendix sections and before the bibliography.
+% The parent document must already have issued appendices.
+\ifdefined\nobalance\nobalance\fi
+\clearpage
+\section{VHDL Project Source Code}
+\label{app:sourcecode}
+This appendix contains the project RTL and the integrated verification testbench.
+\lstset{style=projectvhdl}
+
+\subsection{Member 1: MIPS32 Core and Scan Architecture}
+\subsubsection{MIPS32 scan package}
+\leavevmode\par
+\lstinputlisting[caption={MIPS32 scan package.}]{mips32_scan_pkg.vhd}
+
+\subsubsection{Balanced scan register bank}
+\leavevmode\par
+\lstinputlisting[caption={Balanced scan register bank.}]{scan_register_bank.vhd}
+
+\subsubsection{Scan-accessible MIPS32 instruction-subset core}
+\leavevmode\par
+\lstinputlisting[caption={Scan-accessible MIPS32 instruction-subset core.}]{mips32_core.vhd}
+
+\subsection{Member 2: Pattern Generation and Toggle Control}
+\subsubsection{LFSR pseudorandom pattern generator}
+\leavevmode\par
+\lstinputlisting[caption={LFSR pseudorandom pattern generator.}]{lfsr_prpg.vhd}
+
+\subsubsection{Hamming-distance calculator}
+\leavevmode\par
+\lstinputlisting[caption={Hamming-distance calculator.}]{hamming_distance.vhd}
+
+\subsubsection{Conventional PRPG reference}
+\leavevmode\par
+\lstinputlisting[caption={Conventional PRPG reference.}]{conventional_prpg.vhd}
+
+\subsubsection{Programmable transition-budget controller}
+\leavevmode\par
+\lstinputlisting[caption={Programmable transition-budget controller.}]{toggle_rate_controller.vhd}
+
+\subsubsection{Rotating-priority transition suppression}
+\leavevmode\par
+\lstinputlisting[caption={Rotating-priority transition suppression.}]{pattern_modifier.vhd}
+
+\subsubsection{Modified PRPG top-level implementation}
+\leavevmode\par
+\lstinputlisting[caption={Modified PRPG top-level implementation.}]{modified_prpg_top.vhd}
+
+\subsubsection{Four-lane scan adapter}
+\leavevmode\par
+\lstinputlisting[caption={Four-lane scan adapter.}]{modified_prpg_4lane_adapter.vhd}
+
+\subsubsection{Standalone scan-chain activity model}
+\leavevmode\par
+\lstinputlisting[caption={Standalone scan-chain activity model.}]{scan_chain_model.vhd}
+
+\subsection{Member 3: LBIST Control and Fault Evaluation}
+\subsubsection{Shared LBIST definitions}
+\leavevmode\par
+\lstinputlisting[caption={Shared LBIST definitions.}]{lbist_pkg.vhd}
+
+\subsubsection{Eight-state LBIST controller}
+\leavevmode\par
+\lstinputlisting[caption={Eight-state LBIST controller.}]{lbist_controller.vhd}
+
+\subsubsection{Four-input MISR response compactor}
+\leavevmode\par
+\lstinputlisting[caption={Four-input MISR response compactor.}]{misr.vhd}
+
+\subsubsection{Delayed persistent scan-output fault override}
+\leavevmode\par
+\lstinputlisting[caption={Delayed persistent scan-output fault override.}]{fault_injector.vhd}
+
+\subsubsection{LBIST subsystem integration}
+\leavevmode\par
+\lstinputlisting[caption={LBIST subsystem integration.}]{lbist_top.vhd}
+
+\subsection{Complete System Integration}
+\subsubsection{Integrated scan-input activity monitor}
+\leavevmode\par
+\lstinputlisting[caption={Integrated scan-input activity monitor.}]{scan_activity_monitor.vhd}
+
+\subsubsection{Integrated four-chain MIPS32 LBIST wrapper}
+\leavevmode\par
+\lstinputlisting[caption={Integrated four-chain MIPS32 LBIST wrapper.}]{lbist_mips32_top.vhd}
+
+\subsection{Integrated Verification Testbench}
+\subsubsection{Integrated protocol, activity, and fault-campaign testbench}
+\leavevmode\par
+\lstinputlisting[caption={Integrated protocol, activity, and fault-campaign testbench.}]{tb_lbist_mips32_top.vhd}
+

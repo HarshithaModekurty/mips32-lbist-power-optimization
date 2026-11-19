@@ -1,0 +1,23 @@
+% Include this file BEFORE \begin{document}.
+\usepackage{listings}
+\usepackage{xcolor}
+\lstdefinestyle{projectvhdl}{
+  language=VHDL,
+  basicstyle=\ttfamily\scriptsize,
+  keywordstyle=\color{blue!60!black},
+  commentstyle=\color{green!35!black},
+  stringstyle=\color{red!60!black},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  numbersep=5pt,
+  breaklines=true,
+  breakatwhitespace=false,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  tabsize=4,
+  frame=single,
+  captionpos=b,
+  inputencoding=utf8,
+  literate={–}{{-}}1 {─}{{-}}1 {×}{{$\times$}}1
+}

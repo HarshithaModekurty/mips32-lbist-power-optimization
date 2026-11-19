@@ -1,0 +1,78 @@
+[
+  {
+    "path": "code/rtl/mips32_scan_pkg.vhd",
+    "sha256": "e28a72efd86e185a30b72d07bb8beef5588a5db9c5d6f3089ea7cfa7bb0447f9"
+  },
+  {
+    "path": "code/rtl/scan_register_bank.vhd",
+    "sha256": "451555e89b1632a190a17169bc80200ed74ee7ce488fa19af9d6bf8ef705e1a5"
+  },
+  {
+    "path": "code/rtl/mips32_core.vhd",
+    "sha256": "1ee7dff9ea89b80bdc3ea00a5b01333cae6c7b3b3b56e783ccbfb2c2d3d9bba8"
+  },
+  {
+    "path": "code/rtl/member2/lfsr_prpg.vhd",
+    "sha256": "4831bbb2a266503127e73451e3d3c4617c91aa5659a5bc6e44867632c40d5856"
+  },
+  {
+    "path": "code/rtl/member2/hamming_distance.vhd",
+    "sha256": "6b2d1acb4487e0f14d46d2e95f0041e88195ad07e38d9bdde21aad964e3d00ba"
+  },
+  {
+    "path": "code/rtl/member2/conventional_prpg.vhd",
+    "sha256": "4c6c9a2d1152146f4d8cbca7be2f9b49620870c32a7c1812dff183e5602b6479"
+  },
+  {
+    "path": "code/rtl/member2/toggle_rate_controller.vhd",
+    "sha256": "dcd2bdc24c216baf7254ef577f55bdfb2f9d9632c1d27f0a5629d3b87ab9d833"
+  },
+  {
+    "path": "code/rtl/member2/pattern_modifier.vhd",
+    "sha256": "d68699b83d644974d2c1f703e0bbaaa8d45540b52d81d3417a6b68e755e08a8d"
+  },
+  {
+    "path": "code/rtl/member2/modified_prpg_top.vhd",
+    "sha256": "a4fd44048df5b181af617fe52132bf306de9aff4b50d43540a33fd77feded352"
+  },
+  {
+    "path": "code/rtl/member2/modified_prpg_4lane_adapter.vhd",
+    "sha256": "aa0cbe71aa35da148d6e33b949ff698f68b69b9a12a0d08587b0fc45cb854c78"
+  },
+  {
+    "path": "code/rtl/member2/scan_chain_model.vhd",
+    "sha256": "d0ff694065aad5b45256158b8152051c39929dcaee1ac13463677c413e99efe4"
+  },
+  {
+    "path": "code/rtl/member3/lbist_pkg.vhd",
+    "sha256": "0ac463f7342e5f0a183046ec3e06120f5636d0a0992191628bef5d936773e2cf"
+  },
+  {
+    "path": "code/rtl/member3/lbist_controller.vhd",
+    "sha256": "0191e0865b74bac6e7c04649f06555f22cfd95e266e02cc6d9dbea401585504b"
+  },
+  {
+    "path": "code/rtl/member3/misr.vhd",
+    "sha256": "6b653b5dd0bff6b11b28aa85f50bfd7eca40fbb70c8b8ebea5ac7547b357474f"
+  },
+  {
+    "path": "code/rtl/member3/fault_injector.vhd",
+    "sha256": "67c67989e92581f5293ade7178e57e53ce8d87cf41b67e911b7501a01017978c"
+  },
+  {
+    "path": "code/rtl/member3/lbist_top.vhd",
+    "sha256": "825271f5d58e8d4dd8f22365031e97a3c6a2496bde845fa3a21faed1f31f7990"
+  },
+  {
+    "path": "code/rtl/scan_activity_monitor.vhd",
+    "sha256": "0b3b9a5c2559acfa092d0e2f7e804bf11b15cefd82e84d5cd43ff287bb3aff52"
+  },
+  {
+    "path": "code/rtl/lbist_mips32_top.vhd",
+    "sha256": "4ab6ef2f0d32beb9cf117704177048537470f77e4e8e5fb6eb74100a4dfa0f8c"
+  },
+  {
+    "path": "code/tb/tb_lbist_mips32_top.vhd",
+    "sha256": "08dc9f8fe6ae9193987c43908f0ee1453738759149e66389a65df54a82f902c7"
+  }
+]
